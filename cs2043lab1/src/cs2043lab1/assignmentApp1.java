@@ -25,12 +25,10 @@ public class assignmentApp1 {
 		int size = scanner.nextInt();
 		String[] name = new String[size];
 		int[] grade = new int[size];
-		//List srList = new ArrayList(size);
-                
-		//StudentRecord[] stu = new StudentRecord[size];
+		
                 
 		StudentRecord[] st = new StudentRecord[size];
-                //Scanner sc1 = new Scanner(System.in);
+                
                 for (int i=0; i<size; i++)
 		{
 			System.out.println("Please input the student name?");
@@ -43,7 +41,7 @@ public class assignmentApp1 {
 		
 		System.out.println("please input the sorting option: 1. Select Sort, 2. Bubble Sort");
 		sortChoice = scanner.nextInt();
-		//System.out.println(sortChoice);
+		
                 if (sortChoice == 1)
                 {
                     SelectSort ss = new SelectSort();
